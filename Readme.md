@@ -88,7 +88,8 @@ ng serve
 
 ### Backend (`SignalRWeb.API`)
 
-- **Controllers**: Contains the `ChatsController` for handling API requests. 
+- **Controllers**: Contains the `ChatsController` for handling API requests.
+- **Controllers**: Contains the `AuthController` for User Register and Login. 
 - **Hubs**: Contains the `ChatHub` for SignalR communication.
 - **Models**: Defines the `Chat` and `User` models.
 - **Context**: Contains the `ApplicationDbContext` for database operations.
